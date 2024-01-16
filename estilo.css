@@ -26,8 +26,11 @@ button {
     font-family: inherit;
     margin:0 10px;
     white-space: nowrap;/*evita que los botones se envuelvan al ajustar la pestaña mas pequeña*/
+    transition: color 0.3s;/*cuando el puntero este sobre el boton despues de 3 segundos*/
 }
-
+button:hover {
+    color: black; /* Cambiamos el color del texto cuando el puntero está sobre el botón */
+}
 hr {
     margin: 20px 0;
     color: white;
@@ -76,12 +79,23 @@ body{
     text-align: center; /* Centra el contenido del contenedor */
     font-family: cralika;
     font-size: 30px;
+    
 }
 
 .añadir-carrito {
-    margin-top: 10px; /* Ajusta el espacio entre el precio y el botón */
-    color: black;
-    border:1px solid black;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    transition: color 0.3s, border-color 0.3s; /* Transición para cambio de color de texto y borde */
+}
+
+.añadir-carrito:hover {
+    color: black; /* Cambio de color de texto al pasar el puntero */
+    border-color: black; /* Cambio de color del borde al pasar el puntero */
 }
 .redes{
     font-family: cralika;
