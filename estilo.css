@@ -1,13 +1,14 @@
+
 .centrar {
     height: 350px;
-    background-image: url(imagenes/arriba1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(imagenes/arriba1.png);/*con este tipo de estipo 'background-image' me ayuda a localizar en donde esta apartada la imagen que deseo añadir*/
+    background-repeat: no-repeat;/*con el 'background-repeat' me da la opcion de no-repeat que hace que no se repita la imagen y se vea mejor */
+    background-size: cover;/*con este permite que la imagen pueda asegurarse en cubrir todo el contenedor*/
     background-attachment: fixed;
     margin: auto;
     color: white;
     text-align: center;
-    font-family: 'martin demo';
+    font-family: 'martin demo';/*utiliza una tipo de tipografia especifica sacada de la pagina 'dafont'*/
     font-size: 100px;
     padding: 30px 0 0 0;
 }
@@ -77,6 +78,7 @@ body{
     margin-top:150px;
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
     
 }
 .contenedor {
@@ -86,6 +88,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    white-space: nowrap;
 }
 
 
@@ -137,6 +140,8 @@ body{
 .tiktok {
     background: url(imagenes/tik-tok.png) no-repeat center/cover;
 }
+
+
 
 
 

@@ -6,8 +6,10 @@
     <title>Eclipse Store</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+
 <body>
     <div class="centrar">
         <p>Eclipse</p>
@@ -16,7 +18,10 @@
             <a href="carrito.html" style="text-decoration: none;">
                 <button>Carrito</button>
             </a>
-            <button>lentes</button>
+            <!--el boton de lentes sirve para poder regresar a la pagina de solo lentes-->
+            <a href="lentes.html" style="text-decoration: none;">
+                <button>lentes</button>
+            </a>
             <button>ofertas</button>
             <button>tendencia</button>
             <button>nosotros</button>
@@ -30,11 +35,11 @@
             </div>
             <div class="col-md-4 p-5 text-black d-flex flex-column justify-content-center">
                 <h3 class="fs-1 fw-bold">SOLVOG</h3>
-                <p class="fs-4 mb-0">Lentes con protección UV </p>
+                <p class="fs-4 mb-0">Lentes con protección UV </p><!--permite darle una descripcion breve al producto-->
                 <div class="d-flex justify-content-between mt-3">
                     <div class="col col-12 col-sm-12 col-md-5 col-lg-5">
                         <select name="" id="" class="form-control fs-4 btn-dark p-3">
-                            <option selected="">Colores</option>
+                            <option selected="">Colores</option><!--'selected' se utiliza para indicar que esta opción debe ser la opción predeterminada seleccionada cuando se muestra la lista desplegable  -->
                             <option value="">Negro</option>
                             <option value="">Blanco</option>
                             <option value="">gratis</option>
@@ -44,9 +49,16 @@
                         <input type="number" name="" id="" class="form-control fs-4 btn-dark p-3" value="1">
                     </div>
                 </div>
-                <a class="btn btn-outline-dark   w-100 text-center fs-3 mb-4 py-3 añadir-carrito" >Agregar al carrito</a>
-            </div>
+                    <button><a class="btn btn-outline-dark  w-100 text-center fs-3 mb-4 py-3">Agregar al carrito</a></button>
+                    <form action="trabajo.html" id="form1">
+                        <label for="fname">Direccion de envio:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <input type="submit" value="enviar">
+                      </form>
+            
         </div>
     </main>
+   
 </body>
+
 </html>

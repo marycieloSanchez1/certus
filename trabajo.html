@@ -3,25 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eclipse Store</title>
+    <!--implemento un nuevo archivo estilo.css para poder mejorar la apariencia de mi trabajo -->
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+
 
 </head>
 
 <body>
-
+    <!--utilizo una clase 'centrar' mi apartado superior de la pagina-->
     <div class="centrar">
         <p>Eclipse</p>
         <hr>
         <p class="opciones">
-            <a href="carrito.html" style="text-decoration: none;">
+            <a href="carrito.html" style="text-decoration: none;"><!--'href' ayuda a redirigir el boton a la pagina deseada-->
                 <button>Carrito</button>
             </a>
-            <button>lentes</button>
-            <button>ofertas</button>
             <button>tendencia</button>
-            <button>nosotros</button>
+            <button>ofertas</button>
         </p>
         <hr>
     </div>
@@ -30,101 +31,149 @@
         Descubre la combinación <br>perfecta de estilo y protección para tus ojos
     </h1>
     </p>
+    <!--utilizo una clase llamada bloque para poder abarcar todas las imagenes en un solo cuadro, por lo cual en estilos es una imagen de color -->
     <div class="bloque">
         <div class="row ">
+            <!--utilizo la implementacion del framework de bootstrap y 'primeros' ya que asi me permite organizar 
+               la primera fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 primeros">
-                <div class="card contenedor">
+                <div class="card contenedor text-center">
                     <img class="lentes" src="imagenes/lentes1.jpg" alt="lentes1">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family:coolvetica; ">SOLVOG</h2>
                         <p class="card-text" style="font-family:coolvetica; font-size: 20px; ">S/.120.00</p>
-                        <a href="lentes1.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                        <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes1.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
+
+             <!--utilizo la implementacion del framework de bootstrap y 'primeros' ya que asi me permite organizar 
+               la primera fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 primeros">
-                <div class="card contenedor">
+                <div class="card contenedor text-center">
                     <img class="lentes" src="imagenes/lentes2.jpg" alt="lentes2">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica; ">GLEA</h2>
                         <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.110.00</p>
-                        <a href="lentes2.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes2.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
+             <!--utilizo la implementacion del framework de bootstrap y 'primeros' ya que asi me permite organizar 
+               la primera fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 primeros">
                 <div class="card contenedor">
                     <img class="lentes" src="imagenes/lentes3.jpg" alt="lentes3">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica;">LUM</h2>
                         <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.130.00</p>
-                        <a href="lentes3.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes3.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
+             <!--utilizo la implementacion del framework de bootstrap y 'primeros' ya que asi me permite organizar 
+               la primera fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 primeros">
                 <div class="card contenedor">
                     <img class="lentes" src="imagenes/lentes4.jpg" alt="lentes4">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica;">SOLVA</h2>
                         <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.90.00</p>
-                        <a href="lentes4.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes4.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
         </div>
+         <!--utilizo la implementacion del framework de bootstrap y 'segundos' ya que asi me permite organizar 
+               la segunda fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
         <div class="row ">
             <div class="col-md-3 mb-4 segundos">
                 <div class="card contenedor ">
                     <img class="lentes1" src="imagenes/lentes5.jpg" alt="lentes5">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica;">SHINE</h2>
                         <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.110.00</p>
-                        <a href="lentes5.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
-                       
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes5.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
+
                     </div>
                 </div>
             </div>
+            <!--utilizo la implementacion del framework de bootstrap y 'segundos' ya que asi me permite organizar 
+               la segunda fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 segundos">
                 <div class="card contenedor">
                     <img class="lentes1" src="imagenes/lentes6.jpg" alt="lentes5">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica;">UVI</h2>
                         <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.80.00</p>
-                        <a href="lentes6.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes6.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
+            <!--utilizo la implementacion del framework de bootstrap y 'segundos' ya que asi me permite organizar 
+               la segunda fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 segundos">
                 <div class="card contenedor">
                     <img class="lentes1" src="imagenes/lentes7.jpg" alt="lentes6">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica; ">LUME</h2>
                         <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.130.00</p>
-                        <a href="lentes7.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes7.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
-            </div>
+            </div><!--utilizo la implementacion del framework de bootstrap y 'segundos' ya que asi me permite organizar 
+                la segunda fila de imagenes y mantenerlas en un buen orden utilizando estilos-->
             <div class="col-md-3 mb-4 segundos">
                 <div class="card contenedor">
                     <img class="lentes1" src="imagenes/lentes8.jpg" alt="lentes6">
                     <div class="card-body">
+                        <!--utiliza un tipo de tipografia para el nombres, precio -->
                         <h2 class="card-title" style="font-family: coolvetica;">GLEM</h2>
                         <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.100.00</p>
-                        <a href="lentes8.html" class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver detalles</a>
+                         <!--utilizo uniendo la clase añadir-carrito ya que es un apartado de estilo que me permite perzonalizar mi boton-->
+                        <a href="lentes8.html"
+                            class="btn btn-outline-dark añadir-carrito  w-100 text-center fs-3 mb-4 py-3">Ver
+                            detalles</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        <p class="redes">Nuestras redes sociales
-            <hr>
-        <div class="socialmedia">
-            <div class="socialmedia-item facebook"></div>
-            <div class="socialmedia-item instagram"></div>
-            <div class="socialmedia-item tiktok"></div>
-        </div>
 
-</body>
+    <p class="redes">Nuestras redes sociales
+        <hr><!--utilizo el hr para poder crear una separacion entre el texto y mis imagenes que estan dentro de una clase-->
+    <div class="socialmedia">
+        <div class="socialmedia-item facebook"></div>
+        <div class="socialmedia-item instagram"></div>
+        <div class="socialmedia-item tiktok"></div>
+    </div </body>
 
 </html>
