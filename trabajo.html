@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <title>Eclipse Store</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
 </head>
 
 <body>
-
     <div class="centrar">
         <p>Eclipse</p>
         <hr>
         <p class="opciones">
             <a href="carrito.html" style="text-decoration: none;">
-                <button >Carrito</button>
+                <button>Carrito</button>
             </a>
             <button>lentes</button>
             <button>ofertas</button>
@@ -29,69 +29,112 @@
         Descubre la combinación <br>perfecta de estilo y protección para tus ojos
     </h1>
     </p>
-    <div class="centro">
-        <div class="primeros">
-            <div class="contenedor">
-                <img class="lentes" src="imagenes/lentes1.jpg" alt="lentes1">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">SOLVOG</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.120.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 120)">añadir</button>
+    <div class="bloque">
+        <div class="row ">
+
+            <div class="col-md-3 mb-4 primeros">
+                <div class="card contenedor">
+                    <img class="lentes" src="imagenes/lentes1.jpg" alt="lentes1">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family:coolvetica; ">SOLVOG</h2>
+                        <p class="card-text" style="font-family:coolvetica; font-size: 20px; ">S/.120.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito"
+                            onclick="agregarAlCarrito('SOLVOG', 120)">Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes" src="imagenes/lentes2.jpg" alt="lentes2">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">GLEA</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.110.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 110)">añadir</button>
+            <div class="col-md-3 mb-4 primeros">
+                <div class="card contenedor">
+                    <img class="lentes" src="imagenes/lentes2.jpg" alt="lentes2">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica; ">GLEA</h2>
+                        <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.110.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 110)">
+                            Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes" src="imagenes/lentes3.jpg" alt="lentes3">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">LUM</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.130.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 130)">añadir</button>
+            <div class="col-md-3 mb-4 primeros">
+                <div class="card contenedor">
+                    <img class="lentes" src="imagenes/lentes3.jpg" alt="lentes3">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica;">LUM</h2>
+                        <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.130.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito"
+                            onclick="agregarAlCarrito('SOLVOG', 130)">Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes" src="imagenes/lentes4.jpg" alt="lentes3">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">SOLVA</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.90.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 90)">añadir</button>
+            <div class="col-md-3 mb-4 primeros">
+                <div class="card contenedor">
+                    <img class="lentes" src="imagenes/lentes4.jpg" alt="lentes3">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica;">SOLVA</h2>
+                        <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.90.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 90)">Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="segundos">
-            <div class="contenedor">
-                <img class="lentes1" src="imagenes/lentes5.jpg" alt="lentes4">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">SHINE</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.110.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 110)">añadir</button>
+        <div class="row ">
+            <div class="col-md-3 mb-4 segundos">
+                <div class="card contenedor ">
+                    <img class="lentes1" src="imagenes/lentes5.jpg" alt="lentes4">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica;">SHINE</h2>
+                        <p class="card-text" style="font-family: coolvetica; font-size: 20px;">S/.110.00</p>
+                        <button class=" btn btn-outline-dark añadir-carrito"
+                            onclick="agregarAlCarrito('SOLVOG', 110)">Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes1" src="imagenes/lentes6.jpg" alt="lentes5">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">UVI</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.80.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 80)">añadir</button>
+            <div class="col-md-3 mb-4 segundos">
+                <div class="card contenedor">
+                    <img class="lentes1" src="imagenes/lentes6.jpg" alt="lentes5">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica;">UVI</h2>
+                        <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.80.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 80)">Ver
+                            Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes1" src="imagenes/lentes7.jpg" alt="lentes6">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">LUME</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.130.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 130)">añadir</button>
+            <div class="col-md-3 mb-4 segundos">
+                <div class="card contenedor">
+                    <img class="lentes1" src="imagenes/lentes7.jpg" alt="lentes6">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica; ">LUME</h2>
+                        <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.130.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito"
+                            onclick="agregarAlCarrito('SOLVOG', 130)">Ver Detalle</button>
+                    </div>
+                </div>
             </div>
-            <div class="contenedor">
-                <img class="lentes1" src="imagenes/lentes8.jpg" alt="lentes6">
-                <h1 style="font-family: coolvetica; text-align: center; font-size: 40px;">GLEM</h1>
-                <p style="font-family: coolvetica; text-align: center; font-size: 25px;">S/.100.00</p>
-                <button class="añadir-carrito" onclick="agregarAlCarrito('SOLVOG', 100)">añadir</button>
+            <div class="col-md-3 mb-4 segundos">
+                <div class="card contenedor">
+                    <img class="lentes1" src="imagenes/lentes8.jpg" alt="lentes6">
+                    <div class="card-body">
+                        <h2 class="card-title" style="font-family: coolvetica;">GLEM</h2>
+                        <p sclass="card-text" style="font-family: coolvetica; font-size: 20px;">S/.100.00</p>
+                        <button class="btn btn-outline-dark añadir-carrito"
+                            onclick="agregarAlCarrito('SOLVOG', 100)">Ver Detalle</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <p class="redes">Nuestras redes sociales
-        <hr>
-    <div class="socialmedia">
-        <div class="socialmedia-item facebook"></div>
-        <div class="socialmedia-item instagram"></div>
-        <div class="socialmedia-item tiktok"></div>
-    </div>
-
+        <p class="redes">Nuestras redes sociales
+            <hr>
+        <div class="socialmedia">
+            <div class="socialmedia-item facebook"></div>
+            <div class="socialmedia-item instagram"></div>
+            <div class="socialmedia-item tiktok"></div>
+        </div>
 
 </body>
 
